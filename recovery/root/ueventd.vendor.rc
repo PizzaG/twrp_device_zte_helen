@@ -1,0 +1,12 @@
+#covolution
+# add smd22 for CIQ
+/dev/smd22                0660   system     system
+
+# tbase driver resource
+/dev/mobicore             0600   system     system
+/dev/mobicore-user        0666   system     system
+
+# add ssx1207 authority
+/dev/block/mmcblk2        0666   root       root
+/dev/block/mmcblk2p1      0666   root       root
+/dev/ssx1207              0660   system     system
